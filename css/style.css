@@ -1,0 +1,57 @@
+.nav {
+  font-family: "Montserrat", sans-serif;
+}
+
+.card {
+  background-color: #050a27;
+}
+
+.nav,
+nav a {
+  text-transform: uppercase;
+  color: white;
+}
+
+nav .nav-link.active {
+  color: #475cfd;
+}
+
+nav a:hover {
+  color: #475cfd;
+}
+
+.main {
+  color: white;
+}
+
+.main h1 {
+  font-weight: 100;
+}
+
+.main h1 span {
+  font-weight: 600;
+  color: #475cfd;
+}
+
+.main p {
+  font-size: 20px;
+  font-weight: 200;
+  margin: 30px 0;
+}
+
+.main button {
+  background-color: #ff4887;
+  color: white;
+}
+
+.card-body {
+  position: relative;
+  overflow: hidden;
+}
+
+.bg-img {
+  position: absolute;
+  bottom: -58px;
+  right: -60px;
+  width: 50%;
+}
